@@ -12,7 +12,7 @@ export default class Timer extends Component{
 
   componentDidMount()
   {
-    this.functionhandle =setInterval(()=>this.getTime(),1000)
+    setInterval(()=>this.getTime(),1000)
   }
   getTime()
   {
