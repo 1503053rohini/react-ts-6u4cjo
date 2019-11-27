@@ -17,7 +17,8 @@ export default class Timer extends Component{
   getTime()
   {
     this.setState(
-      {Time: new Date().toTimeString()}
+      {
+        Time: new Date().toTimeString()}
       );
   }
 
